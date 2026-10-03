@@ -1,0 +1,151 @@
+review_id,text,source,source_url,is_synthetic,expected_theme,expected_sentiment
+SYN-001,The setup was confusing; the import screen needs clear instructions. Context: fictional workspace 1.,Generated portfolio practice data,,true,setup,mixed
+SYN-002,Onboarding was smooth and the setup guide was helpful. Context: fictional workspace 2.,Generated portfolio practice data,,true,setup,positive
+SYN-003,The subscription is expensive and pricing limits are confusing. Context: fictional workspace 3.,Generated portfolio practice data,,true,pricing,negative
+SYN-004,The plan is affordable and billing details are clear. Context: fictional workspace 4.,Generated portfolio practice data,,true,pricing,positive
+SYN-005,A crash during report generation caused a frustrating error. Context: fictional workspace 5.,Generated portfolio practice data,,true,bugs,negative
+SYN-006,"The dashboard is slow, although the support team is helpful. Context: fictional workspace 6.",Generated portfolio practice data,,true,bugs,mixed
+SYN-007,I wish there was an export feature and a calendar integration. Context: fictional workspace 7.,Generated portfolio practice data,,true,feature requests,neutral
+SYN-008,The missing integration makes our workflow difficult. Context: fictional workspace 8.,Generated portfolio practice data,,true,feature requests,negative
+SYN-009,The team was helpful and the product is reliable. Context: fictional workspace 9.,Generated portfolio practice data,,true,other,positive
+SYN-010,The report displays account activity each week. Context: fictional workspace 10.,Generated portfolio practice data,,true,other,neutral
+SYN-011,The setup was confusing; the import screen needs clear instructions. Context: fictional workspace 11.,Generated portfolio practice data,,true,setup,mixed
+SYN-012,Onboarding was smooth and the setup guide was helpful. Context: fictional workspace 12.,Generated portfolio practice data,,true,setup,positive
+SYN-013,The subscription is expensive and pricing limits are confusing. Context: fictional workspace 13.,Generated portfolio practice data,,true,pricing,negative
+SYN-014,The plan is affordable and billing details are clear. Context: fictional workspace 14.,Generated portfolio practice data,,true,pricing,positive
+SYN-015,A crash during report generation caused a frustrating error. Context: fictional workspace 15.,Generated portfolio practice data,,true,bugs,negative
+SYN-016,"The dashboard is slow, although the support team is helpful. Context: fictional workspace 16.",Generated portfolio practice data,,true,bugs,mixed
+SYN-017,I wish there was an export feature and a calendar integration. Context: fictional workspace 17.,Generated portfolio practice data,,true,feature requests,neutral
+SYN-018,The missing integration makes our workflow difficult. Context: fictional workspace 18.,Generated portfolio practice data,,true,feature requests,negative
+SYN-019,The team was helpful and the product is reliable. Context: fictional workspace 19.,Generated portfolio practice data,,true,other,positive
+SYN-020,The report displays account activity each week. Context: fictional workspace 20.,Generated portfolio practice data,,true,other,neutral
+SYN-021,The setup was confusing; the import screen needs clear instructions. Context: fictional workspace 21.,Generated portfolio practice data,,true,setup,mixed
+SYN-022,Onboarding was smooth and the setup guide was helpful. Context: fictional workspace 22.,Generated portfolio practice data,,true,setup,positive
+SYN-023,The subscription is expensive and pricing limits are confusing. Context: fictional workspace 23.,Generated portfolio practice data,,true,pricing,negative
+SYN-024,The plan is affordable and billing details are clear. Context: fictional workspace 24.,Generated portfolio practice data,,true,pricing,positive
+SYN-025,A crash during report generation caused a frustrating error. Context: fictional workspace 25.,Generated portfolio practice data,,true,bugs,negative
+SYN-026,"The dashboard is slow, although the support team is helpful. Context: fictional workspace 26.",Generated portfolio practice data,,true,bugs,mixed
+SYN-027,I wish there was an export feature and a calendar integration. Context: fictional workspace 27.,Generated portfolio practice data,,true,feature requests,neutral
+SYN-028,The missing integration makes our workflow difficult. Context: fictional workspace 28.,Generated portfolio practice data,,true,feature requests,negative
+SYN-029,The team was helpful and the product is reliable. Context: fictional workspace 29.,Generated portfolio practice data,,true,other,positive
+SYN-030,The report displays account activity each week. Context: fictional workspace 30.,Generated portfolio practice data,,true,other,neutral
+SYN-031,The setup was confusing; the import screen needs clear instructions. Context: fictional workspace 31.,Generated portfolio practice data,,true,setup,mixed
+SYN-032,Onboarding was smooth and the setup guide was helpful. Context: fictional workspace 32.,Generated portfolio practice data,,true,setup,positive
+SYN-033,The subscription is expensive and pricing limits are confusing. Context: fictional workspace 33.,Generated portfolio practice data,,true,pricing,negative
+SYN-034,The plan is affordable and billing details are clear. Context: fictional workspace 34.,Generated portfolio practice data,,true,pricing,positive
+SYN-035,A crash during report generation caused a frustrating error. Context: fictional workspace 35.,Generated portfolio practice data,,true,bugs,negative
+SYN-036,"The dashboard is slow, although the support team is helpful. Context: fictional workspace 36.",Generated portfolio practice data,,true,bugs,mixed
+SYN-037,I wish there was an export feature and a calendar integration. Context: fictional workspace 37.,Generated portfolio practice data,,true,feature requests,neutral
+SYN-038,The missing integration makes our workflow difficult. Context: fictional workspace 38.,Generated portfolio practice data,,true,feature requests,negative
+SYN-039,The team was helpful and the product is reliable. Context: fictional workspace 39.,Generated portfolio practice data,,true,other,positive
+SYN-040,The report displays account activity each week. Context: fictional workspace 40.,Generated portfolio practice data,,true,other,neutral
+SYN-041,The setup was confusing; the import screen needs clear instructions. Context: fictional workspace 41.,Generated portfolio practice data,,true,setup,mixed
+SYN-042,Onboarding was smooth and the setup guide was helpful. Context: fictional workspace 42.,Generated portfolio practice data,,true,setup,positive
+SYN-043,The subscription is expensive and pricing limits are confusing. Context: fictional workspace 43.,Generated portfolio practice data,,true,pricing,negative
+SYN-044,The plan is affordable and billing details are clear. Context: fictional workspace 44.,Generated portfolio practice data,,true,pricing,positive
+SYN-045,A crash during report generation caused a frustrating error. Context: fictional workspace 45.,Generated portfolio practice data,,true,bugs,negative
+SYN-046,"The dashboard is slow, although the support team is helpful. Context: fictional workspace 46.",Generated portfolio practice data,,true,bugs,mixed
+SYN-047,I wish there was an export feature and a calendar integration. Context: fictional workspace 47.,Generated portfolio practice data,,true,feature requests,neutral
+SYN-048,The missing integration makes our workflow difficult. Context: fictional workspace 48.,Generated portfolio practice data,,true,feature requests,negative
+SYN-049,The team was helpful and the product is reliable. Context: fictional workspace 49.,Generated portfolio practice data,,true,other,positive
+SYN-050,The report displays account activity each week. Context: fictional workspace 50.,Generated portfolio practice data,,true,other,neutral
+SYN-051,The setup was confusing; the import screen needs clear instructions. Context: fictional workspace 51.,Generated portfolio practice data,,true,setup,mixed
+SYN-052,Onboarding was smooth and the setup guide was helpful. Context: fictional workspace 52.,Generated portfolio practice data,,true,setup,positive
+SYN-053,The subscription is expensive and pricing limits are confusing. Context: fictional workspace 53.,Generated portfolio practice data,,true,pricing,negative
+SYN-054,The plan is affordable and billing details are clear. Context: fictional workspace 54.,Generated portfolio practice data,,true,pricing,positive
+SYN-055,A crash during report generation caused a frustrating error. Context: fictional workspace 55.,Generated portfolio practice data,,true,bugs,negative
+SYN-056,"The dashboard is slow, although the support team is helpful. Context: fictional workspace 56.",Generated portfolio practice data,,true,bugs,mixed
+SYN-057,I wish there was an export feature and a calendar integration. Context: fictional workspace 57.,Generated portfolio practice data,,true,feature requests,neutral
+SYN-058,The missing integration makes our workflow difficult. Context: fictional workspace 58.,Generated portfolio practice data,,true,feature requests,negative
+SYN-059,The team was helpful and the product is reliable. Context: fictional workspace 59.,Generated portfolio practice data,,true,other,positive
+SYN-060,The report displays account activity each week. Context: fictional workspace 60.,Generated portfolio practice data,,true,other,neutral
+SYN-061,The setup was confusing; the import screen needs clear instructions. Context: fictional workspace 61.,Generated portfolio practice data,,true,setup,mixed
+SYN-062,Onboarding was smooth and the setup guide was helpful. Context: fictional workspace 62.,Generated portfolio practice data,,true,setup,positive
+SYN-063,The subscription is expensive and pricing limits are confusing. Context: fictional workspace 63.,Generated portfolio practice data,,true,pricing,negative
+SYN-064,The plan is affordable and billing details are clear. Context: fictional workspace 64.,Generated portfolio practice data,,true,pricing,positive
+SYN-065,A crash during report generation caused a frustrating error. Context: fictional workspace 65.,Generated portfolio practice data,,true,bugs,negative
+SYN-066,"The dashboard is slow, although the support team is helpful. Context: fictional workspace 66.",Generated portfolio practice data,,true,bugs,mixed
+SYN-067,I wish there was an export feature and a calendar integration. Context: fictional workspace 67.,Generated portfolio practice data,,true,feature requests,neutral
+SYN-068,The missing integration makes our workflow difficult. Context: fictional workspace 68.,Generated portfolio practice data,,true,feature requests,negative
+SYN-069,The team was helpful and the product is reliable. Context: fictional workspace 69.,Generated portfolio practice data,,true,other,positive
+SYN-070,The report displays account activity each week. Context: fictional workspace 70.,Generated portfolio practice data,,true,other,neutral
+SYN-071,The setup was confusing; the import screen needs clear instructions. Context: fictional workspace 71.,Generated portfolio practice data,,true,setup,mixed
+SYN-072,Onboarding was smooth and the setup guide was helpful. Context: fictional workspace 72.,Generated portfolio practice data,,true,setup,positive
+SYN-073,The subscription is expensive and pricing limits are confusing. Context: fictional workspace 73.,Generated portfolio practice data,,true,pricing,negative
+SYN-074,The plan is affordable and billing details are clear. Context: fictional workspace 74.,Generated portfolio practice data,,true,pricing,positive
+SYN-075,A crash during report generation caused a frustrating error. Context: fictional workspace 75.,Generated portfolio practice data,,true,bugs,negative
+SYN-076,"The dashboard is slow, although the support team is helpful. Context: fictional workspace 76.",Generated portfolio practice data,,true,bugs,mixed
+SYN-077,I wish there was an export feature and a calendar integration. Context: fictional workspace 77.,Generated portfolio practice data,,true,feature requests,neutral
+SYN-078,The missing integration makes our workflow difficult. Context: fictional workspace 78.,Generated portfolio practice data,,true,feature requests,negative
+SYN-079,The team was helpful and the product is reliable. Context: fictional workspace 79.,Generated portfolio practice data,,true,other,positive
+SYN-080,The report displays account activity each week. Context: fictional workspace 80.,Generated portfolio practice data,,true,other,neutral
+SYN-081,The setup was confusing; the import screen needs clear instructions. Context: fictional workspace 81.,Generated portfolio practice data,,true,setup,mixed
+SYN-082,Onboarding was smooth and the setup guide was helpful. Context: fictional workspace 82.,Generated portfolio practice data,,true,setup,positive
+SYN-083,The subscription is expensive and pricing limits are confusing. Context: fictional workspace 83.,Generated portfolio practice data,,true,pricing,negative
+SYN-084,The plan is affordable and billing details are clear. Context: fictional workspace 84.,Generated portfolio practice data,,true,pricing,positive
+SYN-085,A crash during report generation caused a frustrating error. Context: fictional workspace 85.,Generated portfolio practice data,,true,bugs,negative
+SYN-086,"The dashboard is slow, although the support team is helpful. Context: fictional workspace 86.",Generated portfolio practice data,,true,bugs,mixed
+SYN-087,I wish there was an export feature and a calendar integration. Context: fictional workspace 87.,Generated portfolio practice data,,true,feature requests,neutral
+SYN-088,The missing integration makes our workflow difficult. Context: fictional workspace 88.,Generated portfolio practice data,,true,feature requests,negative
+SYN-089,The team was helpful and the product is reliable. Context: fictional workspace 89.,Generated portfolio practice data,,true,other,positive
+SYN-090,The report displays account activity each week. Context: fictional workspace 90.,Generated portfolio practice data,,true,other,neutral
+SYN-091,The setup was confusing; the import screen needs clear instructions. Context: fictional workspace 91.,Generated portfolio practice data,,true,setup,mixed
+SYN-092,Onboarding was smooth and the setup guide was helpful. Context: fictional workspace 92.,Generated portfolio practice data,,true,setup,positive
+SYN-093,The subscription is expensive and pricing limits are confusing. Context: fictional workspace 93.,Generated portfolio practice data,,true,pricing,negative
+SYN-094,The plan is affordable and billing details are clear. Context: fictional workspace 94.,Generated portfolio practice data,,true,pricing,positive
+SYN-095,A crash during report generation caused a frustrating error. Context: fictional workspace 95.,Generated portfolio practice data,,true,bugs,negative
+SYN-096,"The dashboard is slow, although the support team is helpful. Context: fictional workspace 96.",Generated portfolio practice data,,true,bugs,mixed
+SYN-097,I wish there was an export feature and a calendar integration. Context: fictional workspace 97.,Generated portfolio practice data,,true,feature requests,neutral
+SYN-098,The missing integration makes our workflow difficult. Context: fictional workspace 98.,Generated portfolio practice data,,true,feature requests,negative
+SYN-099,The team was helpful and the product is reliable. Context: fictional workspace 99.,Generated portfolio practice data,,true,other,positive
+SYN-100,The report displays account activity each week. Context: fictional workspace 100.,Generated portfolio practice data,,true,other,neutral
+SYN-101,The setup was confusing; the import screen needs clear instructions. Context: fictional workspace 101.,Generated portfolio practice data,,true,setup,mixed
+SYN-102,Onboarding was smooth and the setup guide was helpful. Context: fictional workspace 102.,Generated portfolio practice data,,true,setup,positive
+SYN-103,The subscription is expensive and pricing limits are confusing. Context: fictional workspace 103.,Generated portfolio practice data,,true,pricing,negative
+SYN-104,The plan is affordable and billing details are clear. Context: fictional workspace 104.,Generated portfolio practice data,,true,pricing,positive
+SYN-105,A crash during report generation caused a frustrating error. Context: fictional workspace 105.,Generated portfolio practice data,,true,bugs,negative
+SYN-106,"The dashboard is slow, although the support team is helpful. Context: fictional workspace 106.",Generated portfolio practice data,,true,bugs,mixed
+SYN-107,I wish there was an export feature and a calendar integration. Context: fictional workspace 107.,Generated portfolio practice data,,true,feature requests,neutral
+SYN-108,The missing integration makes our workflow difficult. Context: fictional workspace 108.,Generated portfolio practice data,,true,feature requests,negative
+SYN-109,The team was helpful and the product is reliable. Context: fictional workspace 109.,Generated portfolio practice data,,true,other,positive
+SYN-110,The report displays account activity each week. Context: fictional workspace 110.,Generated portfolio practice data,,true,other,neutral
+SYN-111,The setup was confusing; the import screen needs clear instructions. Context: fictional workspace 111.,Generated portfolio practice data,,true,setup,mixed
+SYN-112,Onboarding was smooth and the setup guide was helpful. Context: fictional workspace 112.,Generated portfolio practice data,,true,setup,positive
+SYN-113,The subscription is expensive and pricing limits are confusing. Context: fictional workspace 113.,Generated portfolio practice data,,true,pricing,negative
+SYN-114,The plan is affordable and billing details are clear. Context: fictional workspace 114.,Generated portfolio practice data,,true,pricing,positive
+SYN-115,A crash during report generation caused a frustrating error. Context: fictional workspace 115.,Generated portfolio practice data,,true,bugs,negative
+SYN-116,"The dashboard is slow, although the support team is helpful. Context: fictional workspace 116.",Generated portfolio practice data,,true,bugs,mixed
+SYN-117,I wish there was an export feature and a calendar integration. Context: fictional workspace 117.,Generated portfolio practice data,,true,feature requests,neutral
+SYN-118,The missing integration makes our workflow difficult. Context: fictional workspace 118.,Generated portfolio practice data,,true,feature requests,negative
+SYN-119,The team was helpful and the product is reliable. Context: fictional workspace 119.,Generated portfolio practice data,,true,other,positive
+SYN-120,The report displays account activity each week. Context: fictional workspace 120.,Generated portfolio practice data,,true,other,neutral
+SYN-121,The setup was confusing; the import screen needs clear instructions. Context: fictional workspace 121.,Generated portfolio practice data,,true,setup,mixed
+SYN-122,Onboarding was smooth and the setup guide was helpful. Context: fictional workspace 122.,Generated portfolio practice data,,true,setup,positive
+SYN-123,The subscription is expensive and pricing limits are confusing. Context: fictional workspace 123.,Generated portfolio practice data,,true,pricing,negative
+SYN-124,The plan is affordable and billing details are clear. Context: fictional workspace 124.,Generated portfolio practice data,,true,pricing,positive
+SYN-125,A crash during report generation caused a frustrating error. Context: fictional workspace 125.,Generated portfolio practice data,,true,bugs,negative
+SYN-126,"The dashboard is slow, although the support team is helpful. Context: fictional workspace 126.",Generated portfolio practice data,,true,bugs,mixed
+SYN-127,I wish there was an export feature and a calendar integration. Context: fictional workspace 127.,Generated portfolio practice data,,true,feature requests,neutral
+SYN-128,The missing integration makes our workflow difficult. Context: fictional workspace 128.,Generated portfolio practice data,,true,feature requests,negative
+SYN-129,The team was helpful and the product is reliable. Context: fictional workspace 129.,Generated portfolio practice data,,true,other,positive
+SYN-130,The report displays account activity each week. Context: fictional workspace 130.,Generated portfolio practice data,,true,other,neutral
+SYN-131,The setup was confusing; the import screen needs clear instructions. Context: fictional workspace 131.,Generated portfolio practice data,,true,setup,mixed
+SYN-132,Onboarding was smooth and the setup guide was helpful. Context: fictional workspace 132.,Generated portfolio practice data,,true,setup,positive
+SYN-133,The subscription is expensive and pricing limits are confusing. Context: fictional workspace 133.,Generated portfolio practice data,,true,pricing,negative
+SYN-134,The plan is affordable and billing details are clear. Context: fictional workspace 134.,Generated portfolio practice data,,true,pricing,positive
+SYN-135,A crash during report generation caused a frustrating error. Context: fictional workspace 135.,Generated portfolio practice data,,true,bugs,negative
+SYN-136,"The dashboard is slow, although the support team is helpful. Context: fictional workspace 136.",Generated portfolio practice data,,true,bugs,mixed
+SYN-137,I wish there was an export feature and a calendar integration. Context: fictional workspace 137.,Generated portfolio practice data,,true,feature requests,neutral
+SYN-138,The missing integration makes our workflow difficult. Context: fictional workspace 138.,Generated portfolio practice data,,true,feature requests,negative
+SYN-139,The team was helpful and the product is reliable. Context: fictional workspace 139.,Generated portfolio practice data,,true,other,positive
+SYN-140,The report displays account activity each week. Context: fictional workspace 140.,Generated portfolio practice data,,true,other,neutral
+SYN-141,The setup was confusing; the import screen needs clear instructions. Context: fictional workspace 141.,Generated portfolio practice data,,true,setup,mixed
+SYN-142,Onboarding was smooth and the setup guide was helpful. Context: fictional workspace 142.,Generated portfolio practice data,,true,setup,positive
+SYN-143,The subscription is expensive and pricing limits are confusing. Context: fictional workspace 143.,Generated portfolio practice data,,true,pricing,negative
+SYN-144,The plan is affordable and billing details are clear. Context: fictional workspace 144.,Generated portfolio practice data,,true,pricing,positive
+SYN-145,A crash during report generation caused a frustrating error. Context: fictional workspace 145.,Generated portfolio practice data,,true,bugs,negative
+SYN-146,"The dashboard is slow, although the support team is helpful. Context: fictional workspace 146.",Generated portfolio practice data,,true,bugs,mixed
+SYN-147,I wish there was an export feature and a calendar integration. Context: fictional workspace 147.,Generated portfolio practice data,,true,feature requests,neutral
+SYN-148,The missing integration makes our workflow difficult. Context: fictional workspace 148.,Generated portfolio practice data,,true,feature requests,negative
+SYN-149,The team was helpful and the product is reliable. Context: fictional workspace 149.,Generated portfolio practice data,,true,other,positive
+SYN-150,The report displays account activity each week. Context: fictional workspace 150.,Generated portfolio practice data,,true,other,neutral

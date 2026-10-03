@@ -1,0 +1,55 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.1.0/schema.json",
+  "name": "Sentiment",
+  "position": {
+    "x": 30,
+    "y": 160,
+    "z": 0,
+    "width": 580,
+    "height": 480,
+    "tabOrder": 0
+  },
+  "visual": {
+    "visualType": "clusteredColumnChart",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Reviews"
+                    }
+                  },
+                  "Property": "sentiment"
+                }
+              },
+              "queryRef": "Reviews.sentiment",
+              "nativeQueryRef": "sentiment"
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Reviews"
+                    }
+                  },
+                  "Property": "Review count"
+                }
+              },
+              "queryRef": "Reviews.Review count",
+              "nativeQueryRef": "Review count"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

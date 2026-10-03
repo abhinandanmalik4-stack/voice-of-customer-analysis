@@ -1,0 +1,121 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.1.0/schema.json",
+  "name": "ActionTable",
+  "position": {
+    "x": 30,
+    "y": 30,
+    "z": 0,
+    "width": 1210,
+    "height": 640,
+    "tabOrder": 0
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Themes"
+                    }
+                  },
+                  "Property": "theme"
+                }
+              },
+              "queryRef": "Themes.theme",
+              "nativeQueryRef": "theme"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Themes"
+                    }
+                  },
+                  "Property": "mentions"
+                }
+              },
+              "queryRef": "Themes.mentions",
+              "nativeQueryRef": "mentions"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Themes"
+                    }
+                  },
+                  "Property": "negative_mentions"
+                }
+              },
+              "queryRef": "Themes.negative_mentions",
+              "nativeQueryRef": "negative_mentions"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Themes"
+                    }
+                  },
+                  "Property": "negative_share"
+                }
+              },
+              "queryRef": "Themes.negative_share",
+              "nativeQueryRef": "negative_share"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Themes"
+                    }
+                  },
+                  "Property": "owner"
+                }
+              },
+              "queryRef": "Themes.owner",
+              "nativeQueryRef": "owner"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Themes"
+                    }
+                  },
+                  "Property": "recommendation"
+                }
+              },
+              "queryRef": "Themes.recommendation",
+              "nativeQueryRef": "recommendation"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Themes"
+                    }
+                  },
+                  "Property": "success_metric"
+                }
+              },
+              "queryRef": "Themes.success_metric",
+              "nativeQueryRef": "success_metric"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

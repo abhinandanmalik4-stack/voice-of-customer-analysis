@@ -1,0 +1,135 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.1.0/schema.json",
+  "name": "EvidenceTable",
+  "position": {
+    "x": 30,
+    "y": 150,
+    "z": 0,
+    "width": 1210,
+    "height": 520,
+    "tabOrder": 0
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Reviews"
+                    }
+                  },
+                  "Property": "review_id"
+                }
+              },
+              "queryRef": "Reviews.review_id",
+              "nativeQueryRef": "review_id"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Reviews"
+                    }
+                  },
+                  "Property": "text"
+                }
+              },
+              "queryRef": "Reviews.text",
+              "nativeQueryRef": "text"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Reviews"
+                    }
+                  },
+                  "Property": "themes"
+                }
+              },
+              "queryRef": "Reviews.themes",
+              "nativeQueryRef": "themes"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Reviews"
+                    }
+                  },
+                  "Property": "sentiment"
+                }
+              },
+              "queryRef": "Reviews.sentiment",
+              "nativeQueryRef": "sentiment"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Reviews"
+                    }
+                  },
+                  "Property": "source"
+                }
+              },
+              "queryRef": "Reviews.source",
+              "nativeQueryRef": "source"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Reviews"
+                    }
+                  },
+                  "Property": "source_url"
+                }
+              },
+              "queryRef": "Reviews.source_url",
+              "nativeQueryRef": "source_url"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Reviews"
+                    }
+                  },
+                  "Property": "is_synthetic"
+                }
+              },
+              "queryRef": "Reviews.is_synthetic",
+              "nativeQueryRef": "is_synthetic"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Reviews"
+                    }
+                  },
+                  "Property": "method"
+                }
+              },
+              "queryRef": "Reviews.method",
+              "nativeQueryRef": "method"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

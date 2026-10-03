@@ -1,0 +1,178 @@
+{
+  "name": "VOC",
+  "compatibilityLevel": 1567,
+  "model": {
+    "culture": "en-US",
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "tables": [
+      {
+        "name": "Reviews",
+        "columns": [
+          {
+            "name": "review_id",
+            "dataType": "string",
+            "sourceColumn": "review_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "text",
+            "dataType": "string",
+            "sourceColumn": "text",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "source",
+            "dataType": "string",
+            "sourceColumn": "source",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "source_url",
+            "dataType": "string",
+            "sourceColumn": "source_url",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "is_synthetic",
+            "dataType": "string",
+            "sourceColumn": "is_synthetic",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "themes",
+            "dataType": "string",
+            "sourceColumn": "themes",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "sentiment",
+            "dataType": "string",
+            "sourceColumn": "sentiment",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "reason",
+            "dataType": "string",
+            "sourceColumn": "reason",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "method",
+            "dataType": "string",
+            "sourceColumn": "method",
+            "summarizeBy": "none"
+          }
+        ],
+        "measures": [
+          {
+            "name": "Review count",
+            "expression": "DISTINCTCOUNT(Reviews[review_id])",
+            "formatString": "0"
+          },
+          {
+            "name": "Negative or mixed",
+            "expression": "CALCULATE([Review count], Reviews[sentiment] IN {\"negative\", \"mixed\"})",
+            "formatString": "0"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Reviews",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(\"E:/job/placement-projects/voice-of-customer-analysis/output/analyzed_reviews.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),",
+                "    Headers = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    Typed = Table.TransformColumnTypes(Headers, {{\"review_id\", type text}, {\"text\", type text}, {\"source\", type text}, {\"source_url\", type text}, {\"is_synthetic\", type text}, {\"themes\", type text}, {\"sentiment\", type text}, {\"reason\", type text}, {\"method\", type text}})",
+                "in Typed"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Themes",
+        "columns": [
+          {
+            "name": "theme",
+            "dataType": "string",
+            "sourceColumn": "theme",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "mentions",
+            "dataType": "int64",
+            "sourceColumn": "mentions",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "negative_mentions",
+            "dataType": "int64",
+            "sourceColumn": "negative_mentions",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "negative_share",
+            "dataType": "double",
+            "sourceColumn": "negative_share",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "owner",
+            "dataType": "string",
+            "sourceColumn": "owner",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "recommendation",
+            "dataType": "string",
+            "sourceColumn": "recommendation",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "success_metric",
+            "dataType": "string",
+            "sourceColumn": "success_metric",
+            "summarizeBy": "none"
+          }
+        ],
+        "measures": [
+          {
+            "name": "Mentions",
+            "expression": "SUM(Themes[mentions])",
+            "formatString": "0"
+          },
+          {
+            "name": "Negative mentions",
+            "expression": "SUM(Themes[negative_mentions])",
+            "formatString": "0"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Themes",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(\"E:/job/placement-projects/voice-of-customer-analysis/output/theme_summary.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),",
+                "    Headers = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    Typed = Table.TransformColumnTypes(Headers, {{\"theme\", type text}, {\"mentions\", Int64.Type}, {\"negative_mentions\", Int64.Type}, {\"negative_share\", type number}, {\"owner\", type text}, {\"recommendation\", type text}, {\"success_metric\", type text}})",
+                "in Typed"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "annotations": [
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"Reviews\", \"Themes\"]"
+      }
+    ]
+  }
+}
