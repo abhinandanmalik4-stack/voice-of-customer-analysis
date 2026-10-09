@@ -1,3 +1,9 @@
+# Start with the beginner version
+
+Open Voice-of-Customer.code-workspace in VS Code. Choose Terminal > Run Task > Run beginner feedback analyzer.
+Read [the Hinglish beginner guide](docs/BEGINNER_GUIDE_HINGLISH.md).
+Study basic_app.py and basic_analysis.py first. Start-Advanced.cmd opens the larger prototype.
+
 # Voice of customer analysis for a SaaS product
 A runnable feedback pipeline and dashboard with optional Claude and Google Sheets integrations.
 
